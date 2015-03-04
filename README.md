@@ -6,9 +6,7 @@ This is a color scheme / UI Theme bundle.
 
 ## Theme
 
-### Hitoshi
-
-Dark (but not to dark, like a sith... well you get the concept) theme.
+Dark theme (but not to dark, like a sith... well you get the concept).
 
 ***
 
@@ -26,7 +24,7 @@ Install the theme manually:
 Alternatively you can install the bundle and keep up to date by cloning the repo directly into your `Packages` directory in the Sublime Text application settings area.
 
 Go to your Sublime Text `Packages` directory and clone the theme repository using the command below:  
-`git clone https://github.com/runxel/hitoshi "Theme - Hitoshi"
+`git clone https://github.com/runxel/hitoshi "Theme - Hitoshi"`
 
 ***
 
@@ -128,5 +126,5 @@ Tabs width:
 
 ### Thanks
 
-The UI Theme is a fork of the lovely `Spacegray` theme by kkga.  
+The UI Theme is a fork of the lovely `Spacegray` theme by [kkga](https://github.com/kkga/spacegray).  
 (The color scheme is my own creation.) 
