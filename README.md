@@ -6,7 +6,7 @@ This is a color scheme / UI Theme bundle.
 
 ## Theme
 
-Dark theme (but not to dark, like a sith... well you get the concept).
+This is a dark theme (but not to dark, like a sith... well you get the concept).
 
 ***
 
@@ -30,7 +30,7 @@ Go to your Sublime Text `Packages` directory and clone the theme repository usin
 
 ## How to Activate
 
-Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (<kbd>⌘</kbd><kbd>,</kbd> on Mac).
+Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User`.
 
 Don't forget to change *both* color scheme and UI theme so they match.
 
@@ -47,7 +47,7 @@ Don't forget to change *both* color scheme and UI theme so they match.
 
 ***
 
-### Settings for the UI theme you could use
+### some Options (from orginal Spacegray)
 
 #### Tab labels font size
 
