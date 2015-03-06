@@ -205,7 +205,7 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "Theme - Hitoshi/Spacegray/folder-closed.png",
+        "layer0.texture": "Theme - Hitoshi/Spacegray/fold-closed.png",
         "layer0.tint": [160, 159, 147],
         "layer0.opacity": 0.5,
         "layer0.inner_margin": 0,
@@ -219,7 +219,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Hitoshi/Spacegray/folder-open.png"
+        "layer0.texture": "Theme - Hitoshi/Spacegray/fold-open.png"
     },
     {
         "class": "fold_button_control",
@@ -376,7 +376,7 @@
     {
         // minimap overlay
         "class": "minimap_control",
-        "viewport_color": [255,255,255,15]
+        "viewport_color": [255,255,230,50]
     },
 
 //
@@ -626,7 +626,7 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [8,8],
-        "layer0.texture": "Theme - Hitoshi/Spacegray/folder-closed.png",
+        "layer0.texture": "Theme - Hitoshi/Spacegray/fold-closed.png",
         "layer0.tint": [81, 81, 81], // 02
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
@@ -644,7 +644,7 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Hitoshi/Spacegray/folder-open.png"
+        "layer0.texture": "Theme - Hitoshi/Spacegray/fold-open.png"
     },
     {
         "class": "disclosure_button_control",
@@ -655,21 +655,21 @@
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Hitoshi/Spacegray/folder-open.png"
+        "layer0.texture": "Theme - Hitoshi/Spacegray/fold-open.png"
     },
 
     // Sidebar folder closed
     {
         "class": "icon_folder",
-        "layer0.texture": "Theme - Hitoshi/icons/folder.png",
+        "layer0.texture": "Theme - Hitoshi/Spacegray/folder-closed.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [89, 103, 115],
+        "layer0.tint": [190, 190, 185],
         "content_margin": [8, 8]
     },
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.tint":[167, 173, 186] // 04
+        "layer0.tint":[255, 147, 38] // 167,173,186
     },
     {
         "class": "icon_folder",
@@ -679,21 +679,42 @@
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-        "layer0.texture": "Theme - Hitoshi/icons/folder_open.png"
+        "layer0.texture": "Theme - Hitoshi/Spacegray/folder-open.png"
     },
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}]
-    },
-    {
+    },    {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["expanded", "selected"]}],
-        "layer0.texture": "Theme - Hitoshi/icons/folder_open.png"
+        "layer0.texture": "Theme - Hitoshi/Spacegray/folder-open.png"
     },
     // Sidebar file icons
     {
         "class": "icon_file_type",
         // layer0.texture is filled in by code with the relevant icon name
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    // Sidebar folder loading
+    {
+        "class": "icon_folder_loading",
+        "layer0.texture":
+        {
+            "keyframes":
+            [
+                "Theme - Hitoshi/spinner/spinner7.png",
+                "Theme - Hitoshi/spinner/spinner6.png",
+                "Theme - Hitoshi/spinner/spinner5.png",
+                "Theme - Hitoshi/spinner/spinner4.png",
+                "Theme - Hitoshi/spinner/spinner3.png",
+                "Theme - Hitoshi/spinner/spinner2.png",
+                "Theme - Hitoshi/spinner/spinner1.png",
+                "Theme - Hitoshi/spinner/spinner.png"
+            ],
+            "loop": true,
+            "frame_time": 0.075,
+        },
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
@@ -935,7 +956,7 @@
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - Spacegray/Spacegray/casesens.png",
+        "layer0.texture": "Theme - Hitoshi/Spacegray/casesens.png",
         "layer0.tint": [81, 81, 81], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -948,7 +969,7 @@
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - Spacegray/Spacegray/wholeword.png",
+        "layer0.texture": "Theme - Hitoshi/Spacegray/wholeword.png",
         "layer0.tint": [81, 81, 81], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1022,7 +1043,7 @@
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - Spacegray/Spacegray/selection.png",
+        "layer0.texture": "Theme - Hitoshi/Spacegray/selection.png",
         "layer0.tint": [81, 81, 81], // 02
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1110,7 +1131,7 @@
         "tab_height": 40
     },
 
-//
+/*//
 // FIX ICON BUG BY REMOVING THEM
 //
 
@@ -1129,6 +1150,6 @@
         "class": "icon_folder_loading",
         "content_margin": [0,0],
         "layer0.opacity": 0.0
-    }
+    }*/
 
 ]
