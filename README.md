@@ -22,7 +22,7 @@ Install the theme manually:
 
 1. [Download the .zip](https://github.com/runxel/hitoshi/archive/master.zip)
 2. Unzip and rename the folder to `Theme - Hitoshi`
-3. Copy the folder into `Packages` directory, which you can find using the menu item <kbd>Sublime Text</kbd> -> <kbd>Preferences</kbd> -> <kbd>Browse Packages...</kbd>
+3. Copy the folder into `Packages` directory, which you can find using the menu item <kbd>Sublime Text</kbd> > <kbd>Preferences</kbd> > <kbd>Browse Packages...</kbd>
 
 ### Using Git
 Alternatively you can install the bundle and keep up to date by cloning the repo directly into your `Packages` directory in the Sublime Text application settings area.
