@@ -1,7 +1,7 @@
 # Hitoshi
 
 This is a color scheme / UI Theme bundle for Sublime Text 3.  
-*(Due a bug Sublime Text 2 will have problems in the sidebar with the UI theme. The color scheme is usable on both, of course)*
+*(Due to a bug Sublime Text 2 will have problems in the sidebar with the UI theme. The color scheme is usable on both, of course)*
 
 ***
 
