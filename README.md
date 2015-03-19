@@ -34,7 +34,7 @@ Go to your Sublime Text `Packages` directory and clone the theme repository usin
 
 ## How to Activate
 
-Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User`.
+Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item <kbd>Sublime Text</kbd> > <kbd>Preferences</kbd> > <kbd>Settings - User</kbd>.
 
 Don't forget to change *both* color scheme and UI theme so they match.
 
@@ -51,7 +51,7 @@ Don't forget to change *both* color scheme and UI theme so they match.
 
 ***
 
-### some Options (from orginal Spacegray)
+### some Options (from orginal *Spacegray*)
 
 #### Tab labels font size
 
