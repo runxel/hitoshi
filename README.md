@@ -1,13 +1,13 @@
 # Hitoshi
 
 This is a color scheme / UI Theme bundle for Sublime Text 3.  
-*(Due to a bug Sublime Text 2 will have problems in the sidebar with the UI theme. The color scheme is usable on both, of course)*
+*(Due to a bug Sublime Text 2 will have problems in the sidebar with the UI theme. The color scheme is usable on both, of course.)*
 
 ***
 
 ## Theme
 
-This is a dark UI theme (but not to dark, like a sith... well you get the concept) with a well aligned color scheme. It is developed for fatigue-proof coding.  
+This is a dark UI theme (but not too dark, like a sith... well you get the concept) with a well aligned color scheme. It is developed for fatigue-proof coding.  
 The UI Theme is a fork of the lovely `Spacegray` theme by [kkga](https://github.com/kkga/spacegray). The color scheme is my own creation which I used for a long time now. "Hitoshi" has much more scopes defined than the standard schemes like "Monokai".
 
 ![image](screenshots/hitoshi.png)
