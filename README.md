@@ -1,7 +1,6 @@
 # Hitoshi
 
 This is a color scheme / UI Theme bundle for Sublime Text 3.  
-*(Due to a bug Sublime Text 2 will have problems in the sidebar with the UI theme. The color scheme is usable on both, of course.)*
 
 ***
 
@@ -34,7 +33,7 @@ Go to your Sublime Text `Packages` directory and clone the theme repository usin
 
 ## How to Activate
 
-Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item <kbd>Sublime Text</kbd> > <kbd>Preferences</kbd> > <kbd>Settings - User</kbd>.
+Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item <kbd>Sublime Text</kbd> > <kbd>Preferences</kbd> > <kbd>Settings</kbd>.
 
 Don't forget to change *both* color scheme and UI theme so they match.
 
